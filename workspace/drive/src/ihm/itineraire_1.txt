@@ -1,0 +1,138 @@
+            ---    VOICI L'ITINERAIRE DU CHARIOT 1 :     ---
+
+
+----------------------------------------------------------------------------------------------------
+Rayon n°1 :
+
+  Commande n°3 : 
+                   vin nuit saint georges X 6 
+                   vin chablis X 6 
+ 
+
+  Commande n°7 : 
+                   vodka smirnoff X 1 
+                   whisky ballantines X 1 
+                   vin nuit saint georges X 6 
+                   vin chateau margaux X 6 
+                   vin chablis X 6 
+                   vin gevrey chambertin X 6 
+ 
+
+----------------------------------------------------------------------------------------------------
+Rayon n°2 :
+
+  Commande n°3 : 
+ 
+
+  Commande n°7 : 
+                   coca 6x33cL X 1 
+                   orangina 6x33cL X 1 
+                   oasis 2L X 1 
+ 
+
+----------------------------------------------------------------------------------------------------
+Rayon n°3 :
+
+  Commande n°3 : 
+                   evian 6x1,5L X 6 
+                   perrier 6x1,5L X 6 
+ 
+
+  Commande n°7 : 
+                   volvic 6x1,5L X 1 
+                   evian 6x1,5L X 1 
+                   perrier 6x1,5L X 1 
+ 
+
+----------------------------------------------------------------------------------------------------
+Rayon n°4 :
+
+  Commande n°3 : 
+                   lait X 6 
+ 
+
+  Commande n°7 : 
+                   lait X 6 
+ 
+
+----------------------------------------------------------------------------------------------------
+Rayon n°5 :
+
+  Commande n°3 : 
+                   beurre X 1 
+                   activia 12x125g X 1 
+ 
+
+  Commande n°7 : 
+                   beurre X 1 
+                   activia 12x125g X 1 
+                   danette chocolat 8x125g X 1 
+ 
+
+----------------------------------------------------------------------------------------------------
+Rayon n°6 :
+
+  Commande n°3 : 
+                   pain 500g X 1 
+ 
+
+  Commande n°7 : 
+                   pain 500g X 1 
+ 
+
+----------------------------------------------------------------------------------------------------
+Rayon n°7 :
+
+  Commande n°3 : 
+ 
+
+  Commande n°7 : 
+                   spaghetti 500g X 1 
+                   penne rigate 500g X 1 
+                   riz basmati X 1 
+                   sucre en poudre X 1 
+                   farine X 1 
+ 
+
+----------------------------------------------------------------------------------------------------
+Rayon n°8 :
+
+  Commande n°3 : 
+ 
+
+  Commande n°7 : 
+                   pommes de terre 10kg X 1 
+                   pommes de terre 2,5kg X 1 
+ 
+
+----------------------------------------------------------------------------------------------------
+Rayon n°9 :
+
+  Commande n°3 : 
+                   oranges filet 3kg X 1 
+ 
+
+  Commande n°7 : 
+                   oranges filet 3kg X 1 
+ 
+
+----------------------------------------------------------------------------------------------------
+Rayon n°10 :
+
+  Commande n°3 : 
+                   lessive omo X 1 
+ 
+
+  Commande n°7 : 
+                   lessive omo X 1 
+ 
+
+----------------------------------------------------------------------------------------------------
+Rayon n°11 :
+
+  Commande n°3 : 
+ 
+
+  Commande n°7 : 
+                   head & shoulders X 1 
+ 

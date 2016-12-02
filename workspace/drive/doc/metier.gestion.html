@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module metier.gestion</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="metier.html"><font color="#ffffff">metier</font></a>.gestion</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/eleve/workspace/drive/src/metier/gestion.py">/home/eleve/workspace/drive/src/metier/gestion.py</a></font></td></tr></table>
+    <p><tt>Module&nbsp;contenant&nbsp;les&nbsp;fonctions&nbsp;de&nbsp;connexion&nbsp;à&nbsp;une&nbsp;base&nbsp;de&nbsp;données<br>
+&nbsp;<br>
+@author:&nbsp;eleve</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="bdd.accesBdd.html">bdd.accesBdd</a><br>
+</td><td width="25%" valign=top><a href="metier.exceptions.html">metier.exceptions</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-artByCom"><strong>artByCom</strong></a>(numero, rayon)</dt><dd><tt>Récupére&nbsp;la&nbsp;liste&nbsp;des&nbsp;articles&nbsp;étant&nbsp;présent&nbsp;dans&nbsp;la&nbsp;commande(numero)&nbsp;et&nbsp;dans&nbsp;le&nbsp;rayon(rayon)</tt></dd></dl>
+ <dl><dt><a name="-cliByCom"><strong>cliByCom</strong></a>(numero)</dt><dd><tt>Récupére&nbsp;les&nbsp;informations&nbsp;sur&nbsp;un&nbsp;client&nbsp;à&nbsp;partir&nbsp;du&nbsp;numero&nbsp;d'une&nbsp;commande</tt></dd></dl>
+ <dl><dt><a name="-commandeNb"><strong>commandeNb</strong></a>(Commande)</dt><dd><tt>Retouren&nbsp;le&nbsp;nombre&nbsp;de&nbsp;commande&nbsp;ayant&nbsp;la&nbsp;même&nbsp;date&nbsp;de&nbsp;retrait&nbsp;que&nbsp;Commande</tt></dd></dl>
+ <dl><dt><a name="-creerListeCommandesEnAttente"><strong>creerListeCommandesEnAttente</strong></a>()</dt><dd><tt>Retorune&nbsp;la&nbsp;liste&nbsp;des&nbsp;comandes(numeros,poids,volume)&nbsp;qui&nbsp;ne&nbsp;sont&nbsp;pas&nbsp;encore&nbsp;traité&nbsp;(dont&nbsp;l'attribut&nbsp;prete&nbsp;en&nbsp;à&nbsp;False)</tt></dd></dl>
+ <dl><dt><a name="-creerListeItineraire"><strong>creerListeItineraire</strong></a>(ls)</dt><dd><tt>Retorune&nbsp;la&nbsp;liste&nbsp;des&nbsp;rayons&nbsp;des&nbsp;articles&nbsp;présents&nbsp;dans&nbsp;ls</tt></dd></dl>
+ <dl><dt><a name="-enregistrerArticle"><strong>enregistrerArticle</strong></a>(Article)</dt><dd><tt>Sauvegarde&nbsp;un&nbsp;article&nbsp;dans&nbsp;la&nbsp;base&nbsp;de&nbsp;données</tt></dd></dl>
+ <dl><dt><a name="-enregistrerCommande"><strong>enregistrerCommande</strong></a>(Commande)</dt><dd><tt>Sauvegarde&nbsp;une&nbsp;commmande&nbsp;ans&nbsp;la&nbsp;base&nbsp;de&nbsp;données</tt></dd></dl>
+ <dl><dt><a name="-historiqueCommande"><strong>historiqueCommande</strong></a>(Client)</dt><dd><tt>Retorune&nbsp;la&nbsp;liste&nbsp;des&nbsp;commandes&nbsp;passées&nbsp;par&nbsp;un&nbsp;client</tt></dd></dl>
+ <dl><dt><a name="-payementAJour"><strong>payementAJour</strong></a>(Client)</dt><dd><tt>Retroune&nbsp;la&nbsp;liste&nbsp;des&nbsp;attriubts&nbsp;payee&nbsp;des&nbsp;commadnes&nbsp;passées&nbsp;par&nbsp;un&nbsp;client</tt></dd></dl>
+ <dl><dt><a name="-poidsArticle"><strong>poidsArticle</strong></a>(ref)</dt><dd><tt>Retourne&nbsp;le&nbsp;poids&nbsp;d'un&nbsp;article</tt></dd></dl>
+ <dl><dt><a name="-qtByCom"><strong>qtByCom</strong></a>(numero, reference)</dt><dd><tt>Récupére&nbsp;la&nbsp;quantité&nbsp;d'un&nbsp;article(refence)&nbsp;présent&nbsp;dans&nbsp;la&nbsp;commande(numero)</tt></dd></dl>
+ <dl><dt><a name="-remplirCommandes_Articles"><strong>remplirCommandes_Articles</strong></a>(commande)</dt><dd><tt>Remplir&nbsp;la&nbsp;table&nbsp;de&nbsp;liens&nbsp;commandes_articles&nbsp;à&nbsp;partir&nbsp;d'un&nbsp;objet&nbsp;Commande</tt></dd></dl>
+ <dl><dt><a name="-remplirCommandes_Clients"><strong>remplirCommandes_Clients</strong></a>(commande, idcli)</dt><dd><tt>Remplir&nbsp;la&nbsp;table&nbsp;de&nbsp;liens&nbsp;commandes_clients&nbsp;à&nbsp;partir&nbsp;d'un&nbsp;objet&nbsp;commande</tt></dd></dl>
+ <dl><dt><a name="-retraitAJour"><strong>retraitAJour</strong></a>(Client)</dt><dd><tt>Retroune&nbsp;la&nbsp;liste&nbsp;des&nbsp;attriubts&nbsp;retiree&nbsp;des&nbsp;commadnes&nbsp;passées&nbsp;par&nbsp;un&nbsp;client</tt></dd></dl>
+ <dl><dt><a name="-sauvegardeClient"><strong>sauvegardeClient</strong></a>(Client)</dt><dd><tt>Sauvegarde&nbsp;un&nbsp;client&nbsp;dans&nbsp;la&nbsp;base&nbsp;de&nbsp;données</tt></dd></dl>
+ <dl><dt><a name="-sauvegardeClientmodif"><strong>sauvegardeClientmodif</strong></a>(Client1, Client2)</dt><dd><tt>Sauvegarde&nbsp;les&nbsp;modifications&nbsp;apportées&nbsp;à&nbsp;un&nbsp;client&nbsp;dans&nbsp;la&nbsp;base&nbsp;de&nbsp;données</tt></dd></dl>
+ <dl><dt><a name="-sauvegardeModifComPayee"><strong>sauvegardeModifComPayee</strong></a>(Commande)</dt><dd><tt>Sauvegarde&nbsp;dans&nbsp;la&nbsp;base&nbsp;de&nbsp;données&nbsp;les&nbsp;modifications&nbsp;apportées&nbsp;à&nbsp;l'attribut&nbsp;payee&nbsp;d'une&nbsp;commande</tt></dd></dl>
+ <dl><dt><a name="-sauvegardeModifComPrete"><strong>sauvegardeModifComPrete</strong></a>(Commande)</dt><dd><tt>Sauvegarde&nbsp;dans&nbsp;la&nbsp;base&nbsp;de&nbsp;données&nbsp;les&nbsp;modifications&nbsp;apportées&nbsp;à&nbsp;l'attribut&nbsp;prete&nbsp;d'une&nbsp;commande</tt></dd></dl>
+ <dl><dt><a name="-sauvegardeModifComRetiree"><strong>sauvegardeModifComRetiree</strong></a>(Commande)</dt><dd><tt>Sauvegarde&nbsp;dans&nbsp;la&nbsp;base&nbsp;de&nbsp;données&nbsp;les&nbsp;modifications&nbsp;apportées&nbsp;à&nbsp;l'attribut&nbsp;retiree&nbsp;d'une&nbsp;commande</tt></dd></dl>
+ <dl><dt><a name="-supprClient"><strong>supprClient</strong></a>(Client)</dt><dd><tt>Supprime&nbsp;un&nbsp;client&nbsp;dans&nbsp;la&nbsp;base&nbsp;de&nbsp;données</tt></dd></dl>
+ <dl><dt><a name="-supprCommande"><strong>supprCommande</strong></a>(Commande)</dt><dd><tt>Supprime&nbsp;si&nbsp;elle&nbsp;existe&nbsp;une&nbsp;commande&nbsp;de&nbsp;la&nbsp;base&nbsp;de&nbsp;données</tt></dd></dl>
+ <dl><dt><a name="-supprimerArticle"><strong>supprimerArticle</strong></a>(Article)</dt><dd><tt>Supprime&nbsp;si&nbsp;il&nbsp;existe&nbsp;un&nbsp;article&nbsp;dans&nbsp;la&nbsp;base&nbsp;de&nbsp;données</tt></dd></dl>
+ <dl><dt><a name="-verifComCli"><strong>verifComCli</strong></a>(Client, Commande)</dt><dd><tt>Verifie&nbsp;qu'une&nbsp;commande&nbsp;a&nbsp;bien&nbsp;était&nbsp;passées&nbsp;par&nbsp;Client</tt></dd></dl>
+ <dl><dt><a name="-visArt"><strong>visArt</strong></a>()</dt><dd><tt>Affiche&nbsp;dans&nbsp;le&nbsp;terminal&nbsp;la&nbsp;liste&nbsp;des&nbsp;artilces&nbsp;présents&nbsp;dans&nbsp;la&nbsp;base&nbsp;de&nbsp;données</tt></dd></dl>
+ <dl><dt><a name="-visCli"><strong>visCli</strong></a>()</dt><dd><tt>Affiche&nbsp;dans&nbsp;le&nbsp;terminal&nbsp;la&nbsp;liste&nbsp;des&nbsp;clients&nbsp;présents&nbsp;dans&nbsp;la&nbsp;base&nbsp;de&nbsp;données</tt></dd></dl>
+ <dl><dt><a name="-visCom"><strong>visCom</strong></a>()</dt><dd><tt>Affiche&nbsp;dans&nbsp;le&nbsp;terminal&nbsp;la&nbsp;liste&nbsp;des&nbsp;commandes&nbsp;présentes&nbsp;dans&nbsp;la&nbsp;base&nbsp;de&nbsp;données</tt></dd></dl>
+ <dl><dt><a name="-visUnArt"><strong>visUnArt</strong></a>(Article)</dt><dd><tt>Affiche&nbsp;dans&nbsp;le&nbsp;terminal&nbsp;la&nbsp;liste&nbsp;un&nbsp;article&nbsp;spécifique&nbsp;présent&nbsp;dans&nbsp;la&nbsp;base&nbsp;de&nbsp;données</tt></dd></dl>
+ <dl><dt><a name="-visUnCli"><strong>visUnCli</strong></a>(Client)</dt><dd><tt>Affiche&nbsp;dans&nbsp;le&nbsp;terminal&nbsp;un&nbsp;client&nbsp;spécifique&nbsp;présents&nbsp;dans&nbsp;la&nbsp;base&nbsp;de&nbsp;données</tt></dd></dl>
+ <dl><dt><a name="-visUnCom"><strong>visUnCom</strong></a>(Commande)</dt><dd><tt>Affiche&nbsp;dans&nbsp;le&nbsp;terminal&nbsp;la&nbsp;liste&nbsp;une&nbsp;commande&nbsp;spécifique&nbsp;présents&nbsp;dans&nbsp;la&nbsp;base&nbsp;de&nbsp;données</tt></dd></dl>
+ <dl><dt><a name="-volumeArticle"><strong>volumeArticle</strong></a>(ref)</dt><dd><tt>Retourne&nbsp;le&nbsp;volume&nbsp;d'un&nbsp;article</tt></dd></dl>
+</td></tr></table>
+</body></html>

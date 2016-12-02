@@ -1,0 +1,19 @@
+5
+1
+5 vin_chablis 6
+6 vin_gevrey_chambertin 6
+7 coca_6x33cL 2
+10 volvic_6x1,5L 6
+13 lait 6
+14 beurre 1
+15 activia_12x125g 1
+16 danette_chocolat_8x125g 1
+17 pain_500g 1
+18 spaghetti_500g 2
+20 riz_basmati 1
+21 sucre_en_poudre 1
+22 farine 1
+23 pommes_de_terre_10kg 1 
+25 oranges_filet_3kg 1
+26 lessive_omo 1 
+27 head_&_shoulders 1   

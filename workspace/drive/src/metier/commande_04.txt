@@ -1,0 +1,8 @@
+4
+2
+1 vodka_smirnoff 6
+2 whisky_ballantines 6
+3 vin_nuit_saint_georges 12
+4 vin_chateau_margaux 12
+5 vin_chablis 12
+6 vin_gevrey_chambertin 12

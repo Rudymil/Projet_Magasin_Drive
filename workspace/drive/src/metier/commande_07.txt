@@ -1,0 +1,29 @@
+7
+6
+1 vodka_smirnoff 1
+2 whisky_ballantines 1
+3 vin_nuit_saint_georges 6
+4 vin_chateau_margaux 6
+5 vin_chablis 6
+6 vin_gevrey_chambertin 6
+7 coca_6x33cL 1
+8 orangina_6x33cL 1
+9 oasis_2L 1
+10 volvic_6x1,5L 1
+11 evian_6x1,5L 1
+12 perrier_6x1,5L 1
+13 lait 6
+14 beurre 1
+15 activia_12x125g 1
+16 danette_chocolat_8x125g 1
+17 pain_500g 1
+18 spaghetti_500g 1
+19 penne_rigate_500g 1
+20 riz_basmati 1
+21 sucre_en_poudre 1
+22 farine 1
+23 pommes_de_terre_10kg 1 
+24 pommes_de_terre_2,5kg 1
+25 oranges_filet_3kg 1
+26 lessive_omo 1 
+27 head_&_shoulders 1   

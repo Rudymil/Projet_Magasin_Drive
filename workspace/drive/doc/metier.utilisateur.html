@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module metier.utilisateur</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="metier.html"><font color="#ffffff">metier</font></a>.utilisateur</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/eleve/workspace/drive/src/metier/utilisateur.py">/home/eleve/workspace/drive/src/metier/utilisateur.py</a></font></td></tr></table>
+    <p><tt>Module&nbsp;contenant&nbsp;les&nbsp;classes&nbsp;<a href="#Personnel">Personnel</a>&nbsp;et&nbsp;<a href="#Client">Client</a><br>
+&nbsp;<br>
+@author:&nbsp;eleve</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="datetime.html">datetime</a><br>
+</td><td width="25%" valign=top><a href="metier.exceptions.html">metier.exceptions</a><br>
+</td><td width="25%" valign=top><a href="metier.gestion.html">metier.gestion</a><br>
+</td><td width="25%" valign=top><a href="metier.produit.html">metier.produit</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="metier.utilisateur.html#Client">Client</a>
+</font></dt><dt><font face="helvetica, arial"><a href="metier.utilisateur.html#Personnel">Personnel</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Client">class <strong>Client</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Classe&nbsp;definissant&nbsp;un&nbsp;client<br>
+&nbsp;<br>
+Elle&nbsp;possede&nbsp;comme&nbsp;attributs&nbsp;:<br>
+nom&nbsp;--&nbsp;le&nbsp;nom&nbsp;du&nbsp;client<br>
+prenom&nbsp;--&nbsp;le&nbsp;prenom&nbsp;du&nbsp;client<br>
+&nbsp;<br>
+Le&nbsp;nom&nbsp;et&nbsp;le&nbsp;prenom&nbsp;doivent&nbsp;etre&nbsp;passe&nbsp;au&nbsp;constructeur<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Client-__init__"><strong>__init__</strong></a>(self, nom, prenom, **kwargs)</dt><dd><tt>Constructor</tt></dd></dl>
+
+<dl><dt><a name="Client-__str__"><strong>__str__</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Client-annulerCommande"><strong>annulerCommande</strong></a>(self, numero)</dt><dd><tt>Annule&nbsp;une&nbsp;commande&nbsp;si&nbsp;i&nbsp;s'agit&nbsp;bien&nbsp;d'une&nbsp;commande&nbsp;passée&nbsp;par&nbsp;le&nbsp;client</tt></dd></dl>
+
+<dl><dt><a name="Client-estAJourPaiement"><strong>estAJourPaiement</strong></a>(self)</dt><dd><tt>Vérfie&nbsp;que&nbsp;le&nbsp;client&nbsp;est&nbsp;à&nbsp;jour&nbsp;de&nbsp;ses&nbsp;paiements</tt></dd></dl>
+
+<dl><dt><a name="Client-estAJourRetrait"><strong>estAJourRetrait</strong></a>(self)</dt><dd><tt>Vérfie&nbsp;que&nbsp;le&nbsp;client&nbsp;est&nbsp;à&nbsp;jour&nbsp;de&nbsp;ses&nbsp;retraits</tt></dd></dl>
+
+<dl><dt><a name="Client-historiqueCom"><strong>historiqueCom</strong></a>(self)</dt><dd><tt>Retorune&nbsp;la&nbsp;liste&nbsp;des&nbsp;commandes&nbsp;passées&nbsp;par&nbsp;le&nbsp;client</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>nom</strong></dt>
+</dl>
+<dl><dt><strong>prenom</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Personnel">class <strong>Personnel</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Classe&nbsp;definissant&nbsp;un&nbsp;personnel<br>
+&nbsp;<br>
+Elle&nbsp;possede&nbsp;comme&nbsp;attributs&nbsp;:<br>
+nom&nbsp;--&nbsp;le&nbsp;nom&nbsp;de&nbsp;la&nbsp;personne<br>
+prenom&nbsp;--&nbsp;le&nbsp;prenom&nbsp;de&nbsp;la&nbsp;personne<br>
+&nbsp;<br>
+Le&nbsp;nom&nbsp;et&nbsp;le&nbsp;prenom&nbsp;doivent&nbsp;etre&nbsp;passe&nbsp;au&nbsp;constructeur<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Personnel-__init__"><strong>__init__</strong></a>(self, nom, prenom, **kwargs)</dt><dd><tt>Constructor</tt></dd></dl>
+
+<dl><dt><a name="Personnel-__str__"><strong>__str__</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Personnel-ajouterClient"><strong>ajouterClient</strong></a>(self, nom, prenom)</dt><dd><tt>Ajoute&nbsp;un&nbsp;client&nbsp;dans&nbsp;la&nbsp;base&nbsp;de&nbsp;données</tt></dd></dl>
+
+<dl><dt><a name="Personnel-modifierClient"><strong>modifierClient</strong></a>(self, nom1, prenom1, nom2, prenom2)</dt><dd><tt>Modifie&nbsp;si&nbsp;il&nbsp;existe&nbsp;un&nbsp;client(nom1,prenom1)&nbsp;en&nbsp;(nom2,prenom2)&nbsp;dans&nbsp;la&nbsp;base&nbsp;de&nbsp;données</tt></dd></dl>
+
+<dl><dt><a name="Personnel-supprimerClient"><strong>supprimerClient</strong></a>(self, nom, prenom)</dt><dd><tt>Supprime&nbsp;si&nbsp;il&nbsp;existe&nbsp;un&nbsp;client&nbsp;dans&nbsp;la&nbsp;base&nbsp;de&nbsp;données</tt></dd></dl>
+
+<dl><dt><a name="Personnel-visualiserArticle"><strong>visualiserArticle</strong></a>(self, reference)</dt><dd><tt>Affiche&nbsp;dans&nbsp;le&nbsp;terminal&nbsp;la&nbsp;liste&nbsp;un&nbsp;article&nbsp;spécifique&nbsp;présent&nbsp;dans&nbsp;la&nbsp;base&nbsp;de&nbsp;données</tt></dd></dl>
+
+<dl><dt><a name="Personnel-visualiserClient"><strong>visualiserClient</strong></a>(self, nom, prenom)</dt><dd><tt>Affiche&nbsp;dans&nbsp;le&nbsp;terminal&nbsp;la&nbsp;liste&nbsp;un&nbsp;client&nbsp;spécfiique&nbsp;présent&nbsp;dans&nbsp;la&nbsp;base&nbsp;de&nbsp;données</tt></dd></dl>
+
+<dl><dt><a name="Personnel-visualiserCommande"><strong>visualiserCommande</strong></a>(self, numero)</dt><dd><tt>Affiche&nbsp;dans&nbsp;le&nbsp;terminal&nbsp;la&nbsp;liste&nbsp;une&nbsp;commande&nbsp;spécifique&nbsp;présente&nbsp;dans&nbsp;la&nbsp;base&nbsp;de&nbsp;données</tt></dd></dl>
+
+<dl><dt><a name="Personnel-voirListeArticles"><strong>voirListeArticles</strong></a>(self)</dt><dd><tt>Affiche&nbsp;dans&nbsp;le&nbsp;terminal&nbsp;la&nbsp;liste&nbsp;des&nbsp;articles&nbsp;présents&nbsp;dans&nbsp;la&nbsp;base&nbsp;de&nbsp;données</tt></dd></dl>
+
+<dl><dt><a name="Personnel-voirListeClients"><strong>voirListeClients</strong></a>(self)</dt><dd><tt>Affiche&nbsp;dans&nbsp;le&nbsp;terminal&nbsp;la&nbsp;liste&nbsp;des&nbsp;clients&nbsp;présents&nbsp;dans&nbsp;la&nbsp;base&nbsp;de&nbsp;données</tt></dd></dl>
+
+<dl><dt><a name="Personnel-voirListeCommandes"><strong>voirListeCommandes</strong></a>(self)</dt><dd><tt>Affiche&nbsp;dans&nbsp;le&nbsp;terminal&nbsp;la&nbsp;liste&nbsp;des&nbsp;commandes&nbsp;présentes&nbsp;dans&nbsp;la&nbsp;base&nbsp;de&nbsp;données</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>nom</strong></dt>
+</dl>
+<dl><dt><strong>prenom</strong></dt>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>

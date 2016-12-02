@@ -1,0 +1,15 @@
+6
+3
+9 oasis_2L 4
+10 volvic_6x1,5L 12
+13 lait 6
+14 beurre 1
+15 activia_12x125g 1
+17 pain_500g 1
+20 riz_basmati 7
+21 sucre_en_poudre 5
+22 farine 5
+23 pommes_de_terre_10kg 1 
+25 oranges_filet_3kg 1
+26 lessive_omo 1 
+27 head_&_shoulders 1 

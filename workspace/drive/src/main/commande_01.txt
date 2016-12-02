@@ -1,0 +1,9 @@
+1
+5
+6 vin_gevrey_chambertin 12
+10 volvic_6x1,5L 2
+12 perrier_6x1,5L 1
+16 danette_chocolat_8x125g 1
+18 spaghetti_500g 6
+24 pommes_de_terre_2,5kg 1
+26 lessive_omo 1

@@ -1,0 +1,11 @@
+2
+3
+2 whisky_ballantines 1
+3 vin_nuit_saint_georges 12
+10 volvic_6x1,5L 2
+12 perrier_6x1,5L 1
+15 activia_12x125g 2
+21 sucre_en_poudre 2
+22 farine 2
+25 oranges_filet_3kg 1
+26 lessive_omo 1

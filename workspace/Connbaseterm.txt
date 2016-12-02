@@ -1,0 +1,4 @@
+Numero de commande : n°
+Quantié Article
+
+psql --host valilab.ensg.eu --port 5432 --db db_baltz -U baltz
